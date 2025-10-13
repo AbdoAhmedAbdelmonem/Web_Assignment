@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>Web Assignment by Levo</title>
+</head>
+<body class="light-mode">
+    <div class="container">
+        <header>
+            <button class="theme-toggle" id="themeToggle">🌙</button>
+            <h1>Levo Web Development</h1>
+            <div class="subtitle">جامعة الإسكندرية - كلية الحاسبات وعلوم البيانات</div>
+            <div class="subtitle sig">Simply Developed By <a href="https://www.chameleon-nu.tech">Chameleon</a></div>
+        </header>
+
+        <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3NnMGJlaGI2eHl3c2ZyNDQ5bGJyeDJzYzFyazF5MWZ1Z2NoYWx1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NUevhWb3aWuSyXz3FP/giphy.gif" alt="تطوير المواقع" class="theme-image">
+
+        <div class="content-section">
+            <h2>الهدف من الصفحة</h2>
+            <p>الصفحة دي اتعملت كجزء من متطلبات مادة تطوير المواقع في كلية الحاسبات وعلوم البيانات بجامعة الإسكندرية. والهدف منها إننا نوضح المفاهيم الأساسية لتطوير المواقع باستخدام HTML ونطبق العناصر الأساسية الموجودة في أي موقع حديث.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>لينكات مفيدة عشان نتعلم</h2>
+            <div class="links-container">
+                <div class="link-card">
+                    <a href="https://www.w3schools.com" target="_blank" rel="noopener">W3Schools</a>
+                    <p>ده أحسن موقع نتعلم منه الويب والكلام ده كله</p>
+                </div>
+                <div class="link-card">
+                    <a href="https://developer.mozilla.org" target="_blank" rel="noopener">MDN Web Docs</a>
+                    <p>الموقع ده فيه كل حاجة عن تطوير المواقع من شركة موزيلا</p>
+                </div>
+                <div class="link-card">
+                    <a href="https://www.chameleon-nu.tech" target="_blank" rel="noopener">Chameleon</a>
+                    <p>احسن موقع تجيب منه ماتريالز الكلية</p>
+                </div>
+                <div class="link-card">
+                    <a href="https://stackoverflow.com" target="_blank" rel="noopener">Stack Overflow</a>
+                    <p>أي مشكلة هتلاقي حلها هنا</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>محتوى الصفحة</h2>
+            <div class="styled-paragraph">
+                <p>الصفحة دي فيها <span class="styled-text">عناصر HTML الأساسية</span> اللي اتعلمناها في أول محاضرات المادة. والصفحة اتصممت عشان تبقى <span class="italic-text">سهلة في التصفح وشكلها حلو</span>، وفي نفس الوقت تكون متوافقة مع معايير الويب الحديثة.</p>
+                <p>العناصر اللي استخدمناها تشمل: <span class="styled-text">هيدر الصفحة</span>، <span class="styled-text">الصورة الرئيسية</span>، <span class="styled-text">لينكات خارجية</span>، <span class="styled-text">فقرات النص</span> بتنسيقات مختلفة، <span class="styled-text">زرار تفاعلي</span>، بالإضافة إلى <span class="styled-text">محتوى وسائط</span> زي الفيديو والصوت.</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>عنصر تفاعلي</h2>
+            <button class="interactive-button" id="showMessageBtn">دوس هنا عشان تشوف رسالة</button>
+        </div>
+
+        <div class="content-section">
+            <h2>الوسائط والمالتي ميديا</h2>
+            <div class="media-container">
+                <div class="video-container">
+                    <h3>فيديو تعريفي عن اقوي موقع فالكلية </h3>
+                    <video controls>
+                        <source src="https://res.cloudinary.com/dv6rj0dgj/video/upload/v1760357217/Chameleon_-_Master_Your_Future_Skills_Presentations_jtxcjx.mp4" type="video/mp4">
+                        المتصفح بتاعك مش شغال معاه الفيديو.
+                    </video>
+                </div>
+                <div class="audio-container">
+                    <h3>أغنية Shape of You - Ed Sheeran عشان تروق علي حالك</h3>
+                    <audio controls>
+                        <source src="Media/Shape of You - Ed Sheeran.mp3" type="audio/mp3">
+                        المتصفح بتاعك مش شغال معاه الصوت.
+                    </audio>
+                    <p><small>Ed Sheeran's "Shape of You" is one of the best-selling digital singles of all time, reaching #1 in 34 countries and breaking numerous streaming records worldwide</small></p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <img src="https://www.chameleon-nu.tech/images/1212-removebg-preview.png" alt="Chameleon Logo" class="chameleon-logo">
+                <p>Created With Love 💛 - By Abdelrahman Ahmed Abdelmonem</p>
+                <p class="student-id">Student ID : 23011311</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Popup Overlay -->
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup">
+            <button class="popup-close" id="popupClose">×</button>
+            <h3 id="popupTitle">تطوير موقع جامد</h3>
+            <p id="popupMessage">أهلاً بيك في موقعي!</p>
+            <button class="popup-button" id="popupButton">ماشي</button>
+        </div>
+    </div>
+    <script src="Scripts/script.js"></script>
+</body>
+</html>
